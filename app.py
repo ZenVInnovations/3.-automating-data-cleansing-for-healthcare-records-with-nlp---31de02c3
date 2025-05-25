@@ -34,7 +34,7 @@ def clean_dataframe(df):
     df = standardize_diagnosis(df)
     return df
 
-# Request body
+# Request body here
 class HealthRecord(BaseModel):
     Name: str
     Medical_Condition: str
